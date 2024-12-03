@@ -24,6 +24,7 @@
         <activity android:name=".HomeActivity" />
         <activity android:name=".AgendaActivity" />
         <activity android:name=".CalculadoraActivity" />
+        <activity android:name=".NotaActivity" />
     </application>
 
 </manifest>

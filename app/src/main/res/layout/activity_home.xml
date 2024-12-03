@@ -12,7 +12,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/calculadora"
-        android:contentDescription="Calculadora"
+        android:contentDescription="@string/calculadora"
         android:background="?attr/selectableItemBackgroundBorderless"
         android:layout_marginTop="16dp"
         android:scaleType="fitCenter"/>
@@ -22,14 +22,14 @@
         android:id="@+id/agendaButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Agenda"
+        android:text="@string/agenda"
         android:layout_marginTop="16dp" />
 
     <Button
         android:id="@+id/notaButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nota"
+        android:text="@string/nota"
         android:layout_marginTop="16dp"/>
 
 </LinearLayout>

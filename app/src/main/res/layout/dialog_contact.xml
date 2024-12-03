@@ -8,30 +8,30 @@
         android:id="@+id/etContactName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nombre" />
+        android:hint="@string/nombre" />
 
     <EditText
         android:id="@+id/etContactPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Teléfono"
+        android:hint="@string/telefono"
         android:inputType="phone" />
 
     <EditText
         android:id="@+id/etContactEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Correo electrónico"
+        android:hint="@string/correo"
         android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/etContactAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Dirección" />
+        android:hint="@string/direccion" />
     <EditText
         android:id="@+id/etContactNick"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nick" />
+        android:hint="@string/nick" />
 </LinearLayout>

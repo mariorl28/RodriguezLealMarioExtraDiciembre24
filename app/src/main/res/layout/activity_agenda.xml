@@ -7,7 +7,7 @@
         android:id="@+id/btnAddContact"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Añadir Contacto" />
+        android:text="@string/addContactos" />
 
     <ListView
         android:id="@+id/listViewContacts"

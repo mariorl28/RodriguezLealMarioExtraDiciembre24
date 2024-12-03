@@ -10,33 +10,33 @@
         android:layout_height="wrap_content"
         android:textSize="16sp"
         android:textStyle="bold"
-        android:text="Nombre" />
+        android:text="@string/nombre" />
 
     <TextView
         android:id="@+id/tvContactPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="14sp"
-        android:text="Teléfono" />
+        android:text="@string/telefono" />
 
     <TextView
         android:id="@+id/tvContactEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="14sp"
-        android:text="Correo electrónico" />
+        android:text="@string/correo" />
 
     <TextView
         android:id="@+id/tvContactAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="14sp"
-        android:text="Dirección" />
+        android:text="@string/direccion" />
     <TextView
         android:id="@+id/tvContactNick"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="14sp"
-        android:text="Nick" />
+        android:text="@string/nick" />
 </LinearLayout>
 
